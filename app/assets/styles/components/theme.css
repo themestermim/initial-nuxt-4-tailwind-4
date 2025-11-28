@@ -1,0 +1,71 @@
+@theme {
+	--font-*: initial;
+	--font-koodak: "BonyadeKoodak";
+	--color-*: initial;
+	--color-white: #fff;
+	--color-black: oklch(0.1448 0 0);
+	--color-transparent: transparent;
+
+	--color-neutral-50: oklch(0.9581 0 0);
+	--color-neutral-100: oklch(0.8641 0.0014 286.37);
+	--color-neutral-200: oklch(0.7979 0.0018 247.84);
+	--color-neutral-300: oklch(0.7023 0.0031 264.54);
+	--color-neutral-400: oklch(0.6399 0.0032 264.54);
+	--color-neutral-500: oklch(0.5418 0.0048 271.33);
+	--color-neutral-600: oklch(0.5069 0.0049 271.32);
+	--color-neutral-700: oklch(0.4274 0.0035 264.52);
+	--color-neutral-800: oklch(0.3608 0.0034 286.23);
+	--color-neutral-900: oklch(0.3046 0.0023 247.9);
+
+	--color-gray-50: oklch(0.964 0.0029 264.54);
+	--color-gray-100: oklch(0.8855 0.0085 271.32);
+	--color-gray-200: oklch(0.8289 0.012 264.5);
+	--color-gray-300: oklch(0.7474 0.0181 267.74);
+	--color-gray-400: oklch(0.696 0.023 268.34);
+	--color-gray-500: oklch(0.6163 0.0288 266.47);
+	--color-gray-600: oklch(0.5758 0.026 266.75);
+	--color-gray-700: oklch(0.4822 0.0218 268.85);
+	--color-gray-800: oklch(0.4055 0.0176 268.25);
+	--color-gray-900: oklch(0.3405 0.0129 267.16);
+
+	--breakpoint-xl: 83rem;
+	--breakpoint-2xl: 9999rem;
+
+	--text-zero: 0rem;
+	--text-zero--line-height: 0rem;
+	--text-tiny: 0.625rem;
+	--text-xxs: 0.6875rem;
+	--text-xxs--line-height: 1.125rem;
+	--text-tiny--line-height: 1rem;
+	--text-xs--line-height: 1.125rem;
+	--text-sm: 0.875rem;
+	--text-sm--line-height: 1.375rem;
+	--text-base: 1rem;
+	--text-base--line-height: 1.5rem;
+	--text-lg: 1.125rem;
+	--text-lg--line-height: 1.75rem;
+	--text-xl: 1.25rem;
+	--text-xl--line-height: 1.875rem;
+	--text-2xl: 1.5rem;
+	--text-2xl--line-height: 2.25rem;
+	--text-3xl: 1.75rem;
+	--text-3xl--line-height: 2.625rem;
+	--text-4xl: 3rem;
+	--text-4xl--line-height: 4rem;
+	--text-5xl: 2.5rem;
+	--text-5xl--line-height: 3.75rem;
+	--text-6xl: 3rem;
+	--text-6xl--line-height: 4.5rem;
+
+	--shadow-*: initial;
+}
+
+@layer base {
+	img {
+		@apply align-middle;
+	}
+
+	html {
+		@apply scroll-smooth;
+	}
+}
