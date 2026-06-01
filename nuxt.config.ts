@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         ],
     },
     i18n: {
-        vueI18n: './i18n.config.js',
+        vueI18n: 'i18n.config.js',
         locales: [
             { code: 'fa', iso: 'fa-IR', name: 'فارسی' }
         ],

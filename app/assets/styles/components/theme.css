@@ -17,17 +17,6 @@
 	--color-neutral-800: oklch(0.3608 0.0034 286.23);
 	--color-neutral-900: oklch(0.3046 0.0023 247.9);
 
-	--color-gray-50: oklch(0.964 0.0029 264.54);
-	--color-gray-100: oklch(0.8855 0.0085 271.32);
-	--color-gray-200: oklch(0.8289 0.012 264.5);
-	--color-gray-300: oklch(0.7474 0.0181 267.74);
-	--color-gray-400: oklch(0.696 0.023 268.34);
-	--color-gray-500: oklch(0.6163 0.0288 266.47);
-	--color-gray-600: oklch(0.5758 0.026 266.75);
-	--color-gray-700: oklch(0.4822 0.0218 268.85);
-	--color-gray-800: oklch(0.4055 0.0176 268.25);
-	--color-gray-900: oklch(0.3405 0.0129 267.16);
-
 	--breakpoint-xl: 83rem;
 	--breakpoint-2xl: 9999rem;
 
