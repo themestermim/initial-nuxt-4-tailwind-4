@@ -23,15 +23,11 @@ export const useApiFetch = (url, options = {}) => {
         //     }
         // },
 
-        onResponseError({ response }) {
+        onResponseError() {
+            // { response }
             // if (response?.status === 401) {
             //     navigateTo('/login')
             // }
-            console.error(
-                response?._data?.message ||
-                response?.statusText ||
-                'API Error',
-            )
         },
 
         ...options,
