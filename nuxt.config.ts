@@ -2,7 +2,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    compatibilityDate: '2025-07-15',
     devtools: { enabled: true },
     modules: [
         '@pinia/nuxt',
@@ -10,7 +9,7 @@ export default defineNuxtConfig({
         'nuxt-headlessui',
         '@nuxtjs/i18n',
     ],
-    css: ['./app/assets/styles/main.css'],
+    css: ['~/assets/styles/main.css'],
     vite: {
         plugins: [
             tailwindcss(),
@@ -26,7 +25,7 @@ export default defineNuxtConfig({
         detectBrowserLanguage: {
             useCookie: true,
             cookieKey: 'locale',
-            alwaysRedirect: true,
+            alwaysRedirect: false,
             fallbackLocale: 'fa'
         },
     },
@@ -34,7 +33,6 @@ export default defineNuxtConfig({
         prefix: 'HL'
     },
 
-    ssr: true,
     runtimeConfig: {
         public: {
             apiBase: 'https://api.com/api',
