@@ -36,7 +36,7 @@ export default defineNuxtConfig({
 
     runtimeConfig: {
         public: {
-            apiBase: 'https://api.com/api',
+            api: 'https://back.drfori.com/api',
         },
     },
 })
