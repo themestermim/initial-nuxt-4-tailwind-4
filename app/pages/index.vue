@@ -6,9 +6,5 @@
 
 <script setup>
 
-const name = 'mehran'
 
-if (1 == '1') {
-    console.log(name)
-}
 </script>

@@ -7,10 +7,8 @@ export default withNuxt(
             'prefer-const': 'error',
             'eqeqeq': ['error', 'always'],
             'no-console': 'warn',
-
             'semi': ['error', 'never'],
             'comma-dangle': ['error', 'always-multiline'],
-
             'vue/no-mutating-props': 'error',
             'vue/no-unused-components': 'warn',
             'vue/multi-word-component-names': 'off',
