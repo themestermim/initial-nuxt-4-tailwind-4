@@ -1,4 +1,4 @@
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from "@tailwindcss/vite"
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -18,26 +18,25 @@ export default defineNuxtConfig({
         ],
     },
     i18n: {
-        vueI18n: './i18n/i18n.config.js',
         locales: [
-            { code: 'fa', iso: 'fa-IR', name: 'فارسی' }
+            { code: 'fa', name: 'fa-IR', file: 'fa.json' },
         ],
         defaultLocale: 'fa',
-        strategy: 'no_prefix',
-        detectBrowserLanguage: {
-            useCookie: true,
-            cookieKey: 'locale',
-            alwaysRedirect: false,
-            fallbackLocale: 'fa'
-        },
+        // strategy: 'no_prefix',
+        // detectBrowserLanguage: {
+        //     useCookie: true,
+        //     cookieKey: 'locale',
+        //     alwaysRedirect: false,
+        //     fallbackLocale: 'fa'
+        // },
     },
     headlessui: {
-        prefix: 'HL'
+        prefix: 'HL',
     },
 
     runtimeConfig: {
         public: {
             apiBase: 'https://api.com/api',
-        }
+        },
     },
 })

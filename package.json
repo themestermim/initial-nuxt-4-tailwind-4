@@ -8,8 +8,7 @@
     "port": "nuxt dev --port 3009",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "npx eslint .",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
@@ -26,6 +25,14 @@
     "vue-router": "^5.1.0"
   },
   "devDependencies": {
+    "eslint-plugin-import": "^2.32.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.7",
     "nuxt-headlessui": "^1.2.2"
+  },
+  "lint-staged": {
+    "*.{js,vue,mjs}": [
+      "eslint --fix"
+    ]
   }
 }
